@@ -1,0 +1,9 @@
+description = "Common Analysis Functions for REI Analyzer"
+
+dependencies {
+    compile project(":modules:common:common-mdl")
+    compile project(":modules:common:common-util")
+    compile project(":modules:common:external-datasource")
+}
+
+apply from: "$rootDir/buildtool/core.gradle"

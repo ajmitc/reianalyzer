@@ -1,0 +1,8 @@
+description = "External Datasource Access for REI Analyzer"
+
+dependencies {
+    compile project(":modules:common:common-mdl")
+    compile project(":modules:common:common-util")
+}
+
+apply from: "$rootDir/buildtool/core.gradle"

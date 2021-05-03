@@ -1,0 +1,10 @@
+description = "Controller for REI Analyzer Desktop App"
+
+dependencies {
+    compile project(":modules:common:common-mdl")
+    compile project(":modules:common:analysis")
+    compile project(":modules:desktop:model")
+    compile project(":modules:desktop:view")
+}
+
+apply from: "$rootDir/buildtool/core.gradle"

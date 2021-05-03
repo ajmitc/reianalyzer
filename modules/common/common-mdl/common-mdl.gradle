@@ -1,0 +1,7 @@
+description = "Common Models for REI Analyzer"
+
+dependencies {
+    //compile project(":modules:common:common-mdl")
+}
+
+apply from: "$rootDir/buildtool/core.gradle"
