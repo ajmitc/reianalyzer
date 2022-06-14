@@ -1,9 +1,0 @@
-description = "Main package for REI Analyzer Desktop App"
-
-dependencies {
-    compile project(":modules:desktop:model")
-    compile project(":modules:desktop:view")
-    compile project(":modules:desktop:controller")
-}
-
-apply from: "$rootDir/buildtool/core.gradle"

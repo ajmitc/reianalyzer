@@ -1,0 +1,18 @@
+description = "Main package for REI Analyzer Desktop App"
+
+dependencies {
+    compile project(":modules:common:common-mdl")
+    compile project(":modules:common:common-util")
+    compile project(":modules:common:analysis")
+}
+
+jar {
+    manifest {
+        attributes("Implementation-Title": "REI Analyzer",
+            "Implementation-Version": version,
+            "Main-Class": "rei.Main"
+        )
+    }
+}
+
+apply from: "$rootDir/buildtool/core.gradle"

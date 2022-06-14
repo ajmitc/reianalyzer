@@ -4,10 +4,7 @@ include "modules:common:common-util"
 include "modules:common:analysis"
 include "modules:common:external-datasource"
 
-include "modules:desktop:model"
-include "modules:desktop:view"
-include "modules:desktop:controller"
-include "modules:desktop:main"
+include "modules:front-end:desktop"
 
 rootProject.name = "rei"
 

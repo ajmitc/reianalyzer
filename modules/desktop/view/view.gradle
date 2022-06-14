@@ -1,8 +1,0 @@
-description = "View for REI Analyzer Desktop App"
-
-dependencies {
-    compile project(":modules:common:common-mdl")
-    compile project(":modules:desktop:model")
-}
-
-apply from: "$rootDir/buildtool/core.gradle"
